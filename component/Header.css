@@ -1,0 +1,27 @@
+.nav-menu {
+  border-radius: 43px;
+  backdrop-filter: blur(32.75px);
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 16px 67px 16px 67px;
+  display: flex;
+  margin-left: -550px;
+
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 1340px) {
+  .nav-menu {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1125px) {
+  .nav-menu {
+    display: none;
+  }
+}

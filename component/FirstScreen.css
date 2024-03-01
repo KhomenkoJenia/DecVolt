@@ -1,0 +1,49 @@
+.first-secreen-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  min-height: 875px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .first-secreen-container {
+    max-width: 100%;
+  }
+}
+.first-screen-imge {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.first-screen-title {
+  position: relative;
+  justify-content: center;
+  border-radius: 43px;
+  border: 1px solid rgba(233, 234, 240, 0.77);
+  backdrop-filter: blur(21.149999618530273px);
+  background-color: rgba(255, 255, 255, 0.26);
+  align-self: center;
+  width: 743px;
+  max-width: 100%;
+  color: #000;
+  text-align: center;
+  margin: 200px 0 184px;
+  padding: 57px 40px;
+  font: 700 48px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .first-screen-title {
+    max-width: 100%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    padding: 40px 24px;
+  }
+}

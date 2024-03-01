@@ -1,0 +1,67 @@
+.contactUs-container {
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #c9cdfa;
+  border-bottom: 1px solid #c9cdfa;
+  background: linear-gradient(
+    117deg,
+    rgba(194, 222, 253, 0.28) 18.75%,
+    rgba(243, 243, 243, 0.28) 51.14%,
+    rgba(209, 228, 250, 0.28) 83.26%
+  );
+  backdrop-filter: blur(21.149999618530273px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  padding: 40px 60px;
+}
+@media (max-width: 991px) {
+  .contactUs-container {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 20px 20px;
+  }
+}
+.div-2 {
+  display: flex;
+  width: 728px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.cotactUs-title {
+  text-align: center;
+  align-self: stretch;
+  font: 28px Inter;
+}
+@media (max-width: 991px) {
+  .cotactUs-title {
+    max-width: 100%;
+  }
+}
+.cotactUs-subtitle {
+  max-width: 728px;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  margin-top: 12px;
+}
+@media (max-width: 991px) {
+  .cotactUs-subtitle {
+    max-width: 100%;
+  }
+}
+.contactUs-button {
+  margin-top: 24px;
+  max-width: 238px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .contactUs-button {
+    margin-top: 10px;
+  }
+}

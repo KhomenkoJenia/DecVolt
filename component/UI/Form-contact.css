@@ -1,0 +1,107 @@
+.card {
+  padding: 40px;
+  width: 800px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  border: 1px solid #c9cdfa;
+  background: linear-gradient(
+    117deg,
+    rgba(194, 222, 253, 0.28) 18.75%,
+    rgba(243, 243, 243, 0.28) 51.14%,
+    rgba(209, 228, 250, 0.28) 83.26%
+  );
+  backdrop-filter: blur(21.149999618530273px);
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: start;
+  font-family: Inter;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: #6e6e6e;
+  position: absolute;
+  top: -10px;
+  left: 14px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  font-family: Inter;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form .group input:placeholder-shown + label,
+.form .group textarea:placeholder-shown + label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: #191a1b;
+  background-color: transparent;
+}
+
+.form .group input:focus + label,
+.form .group textarea:focus + label {
+  top: -10px;
+  left: 10px;
+  background-color: transparent;
+  color: #040405;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+}
+.button-section div {
+  color: #6e6e6e;
+  font-family: Inter;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 991px) {
+  .card {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .button-section div {
+    font-size: 14px;
+  }
+}
