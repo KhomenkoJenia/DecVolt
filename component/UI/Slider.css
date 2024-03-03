@@ -6,6 +6,10 @@
 .slick-slide img {
   border-radius: 24px;
 }
+.slick-slide:hover img {
+  filter: brightness(1.01);
+  transition: 1s;
+}
 .box-slider {
   position: relative;
 }

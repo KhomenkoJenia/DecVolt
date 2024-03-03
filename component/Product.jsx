@@ -5,7 +5,7 @@ import SliderCastom from "./UI/Slider";
 export default function Product() {
   return (
     <>
-      <section className="product-container">
+      <section id="product" className="product-container">
         <h2>Product</h2>
         <h3>
           Introducing voltLink: Empowering the Electric Vehicle Revolution

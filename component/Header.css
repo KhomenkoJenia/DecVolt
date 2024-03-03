@@ -14,6 +14,22 @@
 a {
   text-decoration: none;
 }
+a:hover {
+  color: rgb(253, 253, 253);
+
+  transition: 1s;
+}
+button.-m-2\.5.inline-flex.items-center.justify-center.rounded-md.p-2\.5.text-gray-700 {
+  background-color: black;
+  border-radius: 50%;
+}
+button.-m-2\.5.rounded-md.p-2\.5.text-gray-700 {
+  background-color: black;
+  border-radius: 50%;
+}
+path {
+  color: aliceblue;
+}
 @media (max-width: 1340px) {
   .nav-menu {
     margin-left: 0px;

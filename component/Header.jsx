@@ -8,10 +8,10 @@ import Button from "./UI/Button";
 import "./Header.css";
 
 const navigation = [
-  { name: "Our Vision", href: "#" },
-  { name: "Product", href: "#" },
-  { name: "About Us", href: "#" },
-  { name: "Contacts", href: "#" },
+  { name: "Our Vision", href: "#vision" },
+  { name: "Product", href: "#product" },
+  { name: "About Us", href: "#about" },
+  { name: "Contacts", href: "#contact" },
 ];
 
 function Header() {

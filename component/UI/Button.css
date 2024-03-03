@@ -17,18 +17,18 @@
 }
 
 .button:hover {
-  background: rgb(61, 106, 255);
+  background: rgb(22, 31, 58);
   border: 1px solid rgb(132, 147, 241);
-  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  box-shadow: 0 0 30px 5px rgba(14, 67, 102, 0.815);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  transition: all 0.9s ease-out;
 }
 
 .button:hover::before {
   -webkit-animation: sh02 0.5s 0s linear;
   -moz-animation: sh02 0.5s 0s linear;
-  animation: sh02 0.5s 0s linear;
+  animation: sh02 0.9s 0s linear;
 }
 
 .button::before {

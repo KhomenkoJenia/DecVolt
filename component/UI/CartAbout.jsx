@@ -10,7 +10,9 @@ export default function CartAbout(props) {
         <div className="cart-body">
           <div className="cart-name">{props.name}</div>
           <div className="cart-descr">{props.description}</div>
-          <Image loading="lazy" src={imgeLinkedin} className="img-linkedin" />
+          <a href={props.linkedin} target="_blank" rel="noreferrer">
+            <Image loading="lazy" src={imgeLinkedin} className="img-linkedin" />
+          </a>
         </div>
       </div>
     </>

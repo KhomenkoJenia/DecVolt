@@ -10,7 +10,7 @@ import autorImgeFour from "@/assets/img/aboutcart4.png";
 
 export default function About() {
   return (
-    <section className="about-container">
+    <section id="about" className="about-container">
       <div className="about-us">
         <Image
           width={447}
@@ -76,11 +76,13 @@ export default function About() {
             imge={autorImge}
             name={"Dr. Sumeet Chougule"}
             description={"Co-founder and CEO"}
+            linkedin={"https://www.linkedin.com/in/sumeetchougule/"}
           />
           <CartAbout
             imge={autorImgeSecond}
             name={"Mark Tsang"}
             description={"Co-founder and COO"}
+            linkedin={"https://www.linkedin.com/in/mark-tsang-1a9b073/"}
           />
         </div>
         <div className="autors-box">
@@ -88,11 +90,13 @@ export default function About() {
             imge={autorImgeTherd}
             name={"David Thomas"}
             description={"Co-founder and CTO"}
+            linkedin={"https://www.linkedin.com/in/david-thomas-42bb165/"}
           />
           <CartAbout
             imge={autorImgeFour}
             name={"Stefano Tempesta"}
             description={"Co-founder and CPO"}
+            linkedin={"https://www.linkedin.com/in/stefanotempesta/"}
           />
         </div>
       </div>

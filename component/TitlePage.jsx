@@ -11,7 +11,7 @@ import imageTab from "@/assets/img/tabimage.png";
 
 export default function TitlePage() {
   return (
-    <section className="title-container">
+    <section id="vision" className="title-container">
       <div className="title-content ">
         <div className="image-box-tab">
           <Image

@@ -3,7 +3,7 @@ import "./ContactUs.css";
 
 export default function ContactUs() {
   return (
-    <section className="contactUs-container">
+    <section id="contact" className="contactUs-container">
       <div className="cotactUs-title">Be Part of the Evolution:</div>
       <div className="cotactUs-subtitle">
         voltLink isn't just a product; it's a promise. A promise to build a
@@ -11,7 +11,9 @@ export default function ContactUs() {
         voltLink and be part of the electric vehicle revolution.
       </div>
       <div className="contactUs-button">
-        <Button>Contact Us</Button>
+        <a href="mailto:stefano@aetlas.xyz" target="_blank" rel="noreferrer">
+          <Button>Contact Us</Button>
+        </a>
       </div>
     </section>
   );

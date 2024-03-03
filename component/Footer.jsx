@@ -10,10 +10,18 @@ export default function Footer() {
         </div>
         <div className="flex flex-grow flex-col justify-center items-center px-5 md:px-16 py-4 backdrop-blur-[32.75px] rounded-[43px] md:justify-between">
           <div className="footerImage flex gap-4  justify-between max-w-full w-[458px] md:max-w-none flex-col md:flex-row">
-            <div>Our Vision</div>
-            <div>Product</div>
-            <div>About Us</div>
-            <div>Contacts</div>
+            <a href="#vision">
+              <div>Our Vision</div>
+            </a>
+            <a href="#product">
+              <div>Product</div>
+            </a>
+            <a href="#about">
+              <div>About Us</div>
+            </a>
+            <a href="#contact">
+              <div>Contacts</div>
+            </a>
           </div>
         </div>
       </div>
