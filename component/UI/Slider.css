@@ -1,0 +1,30 @@
+.slick-slide {
+  max-width: 228px;
+  margin: 0 12px;
+}
+
+.slick-slide img {
+  border-radius: 24px;
+}
+.box-slider {
+  position: relative;
+}
+.box-slider h3 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  font: 18px Inter;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+.box-slider:hover h3 {
+  opacity: 1;
+}
+@media (max-width: 991px) {
+  .slick-dots li button:before {
+    content: "-";
+  }
+}

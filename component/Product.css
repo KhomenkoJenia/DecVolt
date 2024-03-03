@@ -1,0 +1,32 @@
+.product-container {
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.cart-product-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.box-silder-product {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .product-container {
+    padding: 20px 20px;
+  }
+  .product-container h2 {
+    text-align: left;
+  }
+  .cart-product-box {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .box-silder-product {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}

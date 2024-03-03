@@ -14,10 +14,11 @@
 }
 
 .img-contact {
+  margin-left: 100px;
 }
 @media (max-width: 991px) {
-  .img {
-    max-width: 100%;
+  .img-contact {
+    margin-left: 0px;
     margin-top: 40px;
   }
 }
