@@ -1,7 +1,7 @@
 .nav-menu {
   border-radius: 43px;
-  backdrop-filter: blur(32.75px);
-  background-color: rgba(255, 255, 255, 0.26);
+  backdrop-filter: var(--bacground-filter);
+  background-color: var(--bacground-menu);
   padding: 16px 67px 16px 67px;
   display: flex;
   margin-left: -450px;
@@ -11,24 +11,25 @@
   font-family: Inter;
   font-weight: 400;
 }
-a {
+.nav-menu a {
   text-decoration: none;
+  color: var(--body_color);
 }
-a:hover {
-  color: rgb(253, 253, 253);
+.nav-menu a:hover {
+  color: var(--body_bacground);
 
   transition: 1s;
 }
 button.-m-2\.5.inline-flex.items-center.justify-center.rounded-md.p-2\.5.text-gray-700 {
-  background-color: black;
+  background-color: var(--body_color);
   border-radius: 50%;
 }
 button.-m-2\.5.rounded-md.p-2\.5.text-gray-700 {
-  background-color: black;
+  background-color: var(--body_color);
   border-radius: 50%;
 }
 path {
-  color: aliceblue;
+  color: var(--body_bacground);
 }
 @media (max-width: 1340px) {
   .nav-menu {

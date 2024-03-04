@@ -23,8 +23,8 @@
 
 .nav-item a {
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  color: var(--nav-color);
+  border: 2px solid var(--nav-border);
   border-radius: 20px;
   padding: 8px 25px;
 }
@@ -36,10 +36,10 @@
 }
 .nav-item a.active {
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: var(--body_bacground);
   border: 2px solid rgb(0, 0, 0);
   transition: 1s;
-  background-color: black;
+  background-color: var(--body_color);
 }
 @media (max-width: 991px) {
   .nav-item a {

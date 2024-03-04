@@ -6,6 +6,7 @@ import Image from "next/image";
 import logoImg from "@/assets/img/logo1.svg";
 import Button from "./UI/Button";
 import "./Header.css";
+import DarckMode from "./UI/DarckMode.jsx";
 
 const navigation = [
   { name: "Our Vision", href: "#vision" },
@@ -48,6 +49,7 @@ function Header() {
               {item.name}
             </a>
           ))}
+          <DarckMode />
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -89,6 +91,7 @@ function Header() {
                     {item.name}
                   </a>
                 ))}
+                <DarckMode />
               </div>
               <div className="py-6">
                 <Button>Contact Us</Button>

@@ -2,11 +2,11 @@
   align-self: stretch;
   max-width: 292px;
   border-radius: 24px;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--body_color);
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  color: #000;
+  color: var(--body_color);
   width: 100%;
   padding: 27px 24px;
 }

@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 40px;
-  border: 1px solid #c9cdfa;
+  border: 1px solid var(--border-section);
   background: linear-gradient(
     117deg,
     rgba(194, 222, 253, 0.28) 18.75%,

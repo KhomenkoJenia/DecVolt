@@ -2,6 +2,9 @@
   max-width: 228px;
   margin: 0 12px;
 }
+.box-slider h3 {
+  color: black;
+}
 
 .slick-slide img {
   border-radius: 24px;

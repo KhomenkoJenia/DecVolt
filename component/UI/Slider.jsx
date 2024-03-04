@@ -12,6 +12,7 @@ import productImageFour from "@/assets/img/product4.png";
 export default function SliderCastom() {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4, // Количество отображаемых слайдов

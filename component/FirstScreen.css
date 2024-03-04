@@ -26,13 +26,13 @@
   position: relative;
   justify-content: center;
   border-radius: 43px;
-  border: 1px solid rgba(233, 234, 240, 0.77);
-  backdrop-filter: blur(21.149999618530273px);
-  background-color: rgba(255, 255, 255, 0.26);
+  border: 1px solid var(--border-menu);
+  backdrop-filter: var(--bacground-filter);
+  background-color: var(--bacground-menu);
   align-self: center;
   width: 743px;
   max-width: 100%;
-  color: #000;
+  color: var(--body_color);
   text-align: center;
   margin: 200px 0 184px;
   padding: 57px 40px;

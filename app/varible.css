@@ -1,0 +1,22 @@
+:root {
+  --body_bacground: rgb(255, 255, 255);
+  --body_color: black;
+  --bacground-menu: rgba(255, 255, 255, 0.26);
+  --bacground-filter: blur(32.75px);
+  --border-menu: rgba(233, 234, 240, 0.77);
+  --nav-color: rgba(0, 0, 0, 0.5);
+  --nav-border: rgba(0, 0, 0, 0.5);
+  --border-section: #c9cdfa;
+  --footer-bg: rgb(239 246 255);
+}
+[data-theme="dark"] {
+  --body_bacground: rgb(0, 0, 0);
+  --body_color: rgb(255, 255, 255);
+  --bacground-menu: rgba(0, 0, 0, 0.4);
+  --bacground-filter: blur(21.149999618530273px);
+  --border-menu: rgba(0, 0, 0, 0.77);
+  --nav-color: rgb(141, 140, 140);
+  --nav-border: rgb(161, 161, 161);
+  --border-section: #717070;
+  --footer-bg: rgba(239, 246, 255, 0.355);
+}
