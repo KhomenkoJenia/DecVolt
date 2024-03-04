@@ -40,6 +40,9 @@ footer a:hover {
   color: var(--body_bacground);
   transition: 0.5s;
 }
+img {
+  opacity: var(--opacity-img);
+}
 @media (max-width: 991px) {
   .footerImage {
     align-items: center;

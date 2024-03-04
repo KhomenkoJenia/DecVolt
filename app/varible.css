@@ -8,6 +8,7 @@
   --nav-border: rgba(0, 0, 0, 0.5);
   --border-section: #c9cdfa;
   --footer-bg: rgb(239 246 255);
+  --opacity-img: 1;
 }
 [data-theme="dark"] {
   --body_bacground: rgb(0, 0, 0);
@@ -19,4 +20,5 @@
   --nav-border: rgb(161, 161, 161);
   --border-section: #717070;
   --footer-bg: rgba(239, 246, 255, 0.355);
+  --opacity-img: 0.8;
 }

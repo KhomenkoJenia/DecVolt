@@ -17,6 +17,7 @@
 
 .title {
   font-size: 40px;
+  color: var(--body_color);
   font-weight: 800;
   text-align: start;
   font-family: Inter;
