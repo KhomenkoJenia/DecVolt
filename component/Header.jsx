@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import logoImg from "@/assets/img/logo.png";
+import logoImg from "@/assets/img/logo1.svg";
 import Button from "./UI/Button";
 import "./Header.css";
 

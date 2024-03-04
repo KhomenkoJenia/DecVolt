@@ -16,12 +16,6 @@
     white-space: initial;
   }
 }
-.cart-about:hover {
-  -webkit-box-shadow: 4px 5px 15px -7px #111010;
-  box-shadow: 4px 8px 15px -7px #1a1818;
-  transform: scale(1.1);
-  transition: 1s ease-in;
-}
 
 .img-about {
   aspect-ratio: 1.15;
@@ -29,6 +23,10 @@
   object-position: center;
   width: 100%;
   border-radius: 24px 24px 0 0;
+}
+.img-about:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in;
 }
 
 .cart-body {

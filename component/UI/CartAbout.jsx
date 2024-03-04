@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./CartAbout.css";
-import imgeLinkedin from "@/assets/img/linkedin.png";
+import imgeLinkedin from "@/assets/img/linkedin.svg";
 
 export default function CartAbout(props) {
   return (

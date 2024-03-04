@@ -31,4 +31,7 @@
   .slick-dots li button:before {
     content: "-";
   }
+  .box-slider h3 {
+    opacity: 1;
+  }
 }

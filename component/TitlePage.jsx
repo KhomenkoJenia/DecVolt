@@ -63,7 +63,7 @@ export default function TitlePage() {
                   <h4>
                     At DecVolt,we're driven by a{" "}
                     <span class="highlight">singular purpose:</span> to
-                    democratize access to <br></br>
+                    democratize access to
                     <span class="highlight">clean energy.</span> We're committed
                     to empowering individuals, communities, and businesses to{" "}
                     <span class="highlight">harness the power</span> of

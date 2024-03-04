@@ -1,4 +1,4 @@
-import footerImg from "@/assets/img/logoFooter.png";
+import footerImg from "@/assets/img/logoFooter.svg";
 import Image from "next/image";
 
 export default function Footer() {
