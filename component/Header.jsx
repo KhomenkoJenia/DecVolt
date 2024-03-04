@@ -103,7 +103,13 @@ function Header() {
                 <DarckMode />
               </div>
               <div className="py-6">
-                <Button>Contact Us</Button>
+                <a
+                  href="mailto:info@decvolt.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button>Contact Us</Button>
+                </a>
               </div>
             </div>
           </div>

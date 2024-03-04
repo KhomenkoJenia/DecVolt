@@ -11,7 +11,7 @@ export default function ContactUs() {
         voltLink and be part of the electric vehicle revolution.
       </div>
       <div className="contactUs-button">
-        <a href="mailto:stefano@aetlas.xyz" target="_blank" rel="noreferrer">
+        <a href="mailto:info@decvolt.com" target="_blank" rel="noreferrer">
           <Button>Contact Us</Button>
         </a>
       </div>
