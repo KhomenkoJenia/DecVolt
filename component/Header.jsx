@@ -26,7 +26,14 @@ function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image width={139} height={42} src={logoImg} alt="" />
+
+            <Image
+              loading="lazy"
+              width={139}
+              height={42}
+              src={logoImg}
+              alt="asdsad"
+            />
           </a>
         </div>
         <div className="flex lg:hidden">
