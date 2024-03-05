@@ -49,7 +49,7 @@
 }
 .cart-descr {
   margin-top: 8px;
-  font: 400 12px Inter;
+  font: 400 14px Inter;
 }
 @media (max-width: 991px) {
   .cart-descr {

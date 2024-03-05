@@ -37,7 +37,7 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color: var(--body_bacground);
+  color: var(--text-hover);
   transition: 0.5s;
 }
 img {

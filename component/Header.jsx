@@ -61,7 +61,12 @@ function Header() {
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="mailto:info@decvolt.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             <Button>Contact Us</Button>
           </a>
         </div>

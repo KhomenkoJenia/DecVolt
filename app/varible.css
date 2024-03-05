@@ -11,6 +11,7 @@
   --opacity-img: 1;
   --logo-top: url("data:image/svg+xml,%3Csvg width='224' height='120' viewBox='0 0 224 120' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M223.5 0H0V119.5L0.0478249 119.309C1.41247 113.847 4.76724 100.419 12.5 93.5C22 85 32 83.1667 37.5 83H154C159 83 172 81 181.5 71C189.1 63 193.5 52.5 193.5 43.5C193.5 37 193 25.5 201 15C207.405 6.59398 218.167 1.16667 223.5 0Z' fill='white'/%3E%3C/svg%3E%0A");
   --logo-mobaile: url("data:image/svg+xml,%3Csvg width='171' height='81' viewBox='0 0 171 81' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M171 0H0V81C1.02013 76.9386 2.8181 65.532 9.56376 61.2008C20 54.5 28.2919 56.6269 32.5 56.5H117.5C121.326 56.5 133.232 57.6151 140.5 50C146.315 43.908 148.5 38.3536 148.5 31.5C148.5 26.5502 147.664 19.4184 153.785 11.4226C158.685 5.02136 166.919 0.888424 171 0Z' fill='white'/%3E%3C/svg%3E%0A");
+  --text-hover: rgb(114, 113, 113);
 }
 [data-theme="dark"] {
   --body_bacground: rgb(0, 0, 0);
@@ -25,4 +26,5 @@
   --opacity-img: 0.8;
   --logo-top: url("data:image/svg+xml,%3Csvg width='224' height='120' viewBox='0 0 224 120' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M223.5 0H0V119.5L0.0478249 119.309C1.41247 113.847 4.76724 100.419 12.5 93.5C22 85 32 83.1667 37.5 83H154C159 83 172 81 181.5 71C189.1 63 193.5 52.5 193.5 43.5C193.5 37 193 25.5 201 15C207.405 6.59398 218.167 1.16667 223.5 0Z' fill='black'/%3E%3C/svg%3E%0A");
   --logo-mobaile: url("data:image/svg+xml,%3Csvg width='171' height='81' viewBox='0 0 171 81' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M171 0H0V81C1.02013 76.9386 2.8181 65.532 9.56376 61.2008C20 54.5 28.2919 56.6269 32.5 56.5H117.5C121.326 56.5 133.232 57.6151 140.5 50C146.315 43.908 148.5 38.3536 148.5 31.5C148.5 26.5502 147.664 19.4184 153.785 11.4226C158.685 5.02136 166.919 0.888424 171 0Z' fill='black'/%3E%3C/svg%3E%0A");
+  --text-hover: rgb(0, 0, 0);
 }

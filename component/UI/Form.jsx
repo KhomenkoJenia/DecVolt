@@ -32,7 +32,10 @@ export default function Form() {
             <label htmlFor="comment">Subject</label>
           </div>
           <div className="button-section">
-            <div>Privacy policy </div>
+            <a href="https://decvolt.com/privacy">
+              <div>Privacy policy</div>{" "}
+            </a>
+
             <Button type="submit">Send</Button>
           </div>
         </form>

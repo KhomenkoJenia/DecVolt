@@ -18,7 +18,7 @@ header nav {
   color: var(--body_color);
 }
 .nav-menu a:hover {
-  color: var(--body_bacground);
+  color: var(--text-hover);
 
   transition: 1s;
 }
