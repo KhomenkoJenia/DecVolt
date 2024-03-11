@@ -28,6 +28,7 @@
 body {
   background-color: var(--body_bacground) !important;
   color: var(--body_color) !important;
+  overflow-x: hidden;
 }
 footer {
   background-color: var(--footer-bg);
