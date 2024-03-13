@@ -39,7 +39,7 @@
 }
 .autors-box {
   display: flex;
-  gap: 70px;
+  gap: 170px;
 }
 
 @media (max-width: 991px) {

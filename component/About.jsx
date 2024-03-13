@@ -5,7 +5,7 @@ import aboutImgeSecond from "@/assets/img/about2.png";
 import CartAbout from "./UI/CartAbout";
 import autorImge from "@/assets/img/aboutcart1.png";
 import autorImgeSecond from "@/assets/img/aboutcart2.png";
-import autorImgeTherd from "@/assets/img/aboutcart3.png";
+
 import autorImgeFour from "@/assets/img/aboutcart4.png";
 
 export default function About() {
@@ -86,12 +86,6 @@ export default function About() {
           />
         </div>
         <div className="autors-box">
-          <CartAbout
-            imge={autorImgeTherd}
-            name={"David Thomas"}
-            description={"Co-founder and CTO"}
-            linkedin={"https://www.linkedin.com/in/david-thomas-42bb165/"}
-          />
           <CartAbout
             imge={autorImgeFour}
             name={"Stefano Tempesta"}

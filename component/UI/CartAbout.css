@@ -14,6 +14,8 @@
 @media (max-width: 991px) {
   .cart-about {
     white-space: initial;
+    max-width: 167px;
+    margin: 0 auto;
   }
 }
 
